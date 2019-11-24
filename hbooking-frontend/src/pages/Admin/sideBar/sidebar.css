@@ -1,0 +1,11 @@
+.nav-item {
+  margin-bottom: 10px;
+}
+
+.nav-item.side-bar .fas {
+  margin-right: 20px;
+}
+
+.rooms {
+  margin-left: -5px;
+}

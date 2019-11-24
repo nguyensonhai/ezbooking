@@ -1,0 +1,29 @@
+.form-container .form-group {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.form-container .form-group label {
+  width: 20%;
+  margin-top: 7px;
+}
+
+.form-container .form-group .input-text {
+  width: 80%;
+  display: flex;
+}
+
+.form-container .form-group .input-text div {
+  margin-right: 20px;
+}
+
+.form-container button {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.form-group .input-text select {
+  width: 100px;
+}

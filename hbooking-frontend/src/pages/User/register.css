@@ -1,0 +1,277 @@
+/* .App {
+  height: 100vh;
+  display: flex;
+  color: white;
+}
+
+.App__Aside {
+  width: 60%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  color: black;
+}
+.Aside1 .Aside2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.App__Form {
+  width: 40%;
+  background-color: #2e4158;
+  padding: 25px 40px;
+  overflow: auto;
+  border-radius: 20px;
+  box-shadow: #4c5d72;
+}
+
+.PageSwitcher {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10%;
+}
+
+.PageSwitcher__Item {
+  background-color: #4c5d72;
+  color: #9da6b1;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: 0.9em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.PageSwitcher__Item--Active {
+  background-color: #5ed0c0;
+  color: white;
+}
+
+.PageSwitcher__Item:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.PageSwitcher__Item:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.FormCenter {
+  margin-bottom: 100px;
+}
+
+.FormTitle {
+  color: #707c8b;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.FormTitle__Link {
+  color: #707c8b;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.7em;
+  margin: 0 10px;
+  padding-bottom: 5px;
+}
+
+.FormTitle__Link:first-child {
+  margin-left: 0;
+}
+
+.FormTitle__Link--Active {
+  color: white;
+  border-bottom: 1px solid #199087;
+}
+
+.FormField {
+  margin-bottom: 40px;
+}
+
+.FormField__Label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: white;
+}
+.FormField__Input {
+  width: 85%;
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  border-bottom: 1px solid #445366;
+  font-size: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.FormField__Input::placeholder {
+  color: #616e7f;
+}
+
+.FormField__Button {
+  background: linear-gradient(to right, #22c1c3, #fdbb2d);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 15px 70px;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.FormField__Link {
+  color: #66707d;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1.5px solid #225e62;
+  padding-bottom: 5px;
+}
+
+.FormField__CheckboxLabel {
+  color: #646f7d;
+  font-size: 0.9em;
+}
+
+.FormField__Checkbox {
+  position: relative;
+  top: 1.5px;
+}
+
+.FormField__TermsLink {
+  color: white;
+  border-bottom: 1px solid #199087;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 2px;
+  margin-left: 5px;
+}
+
+@media (min-width: 992px) {
+} */
+
+.App {
+  display: flex;
+  flex-direction: row;
+}
+
+.App .App__Aside {
+  width: 60%;
+}
+.App .App__Form {
+  width: 40%;
+  border: 1px solid #5d5d5d26;
+  padding: 30px;
+  box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.02),
+    0 24px 38px 3px rgba(0, 0, 0, 0.04), 0 11px 15px -7px rgba(0, 0, 0, 0.05);
+  border-radius: 0.625rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  margin: 120px 0;
+}
+
+.App .App__Aside {
+  display: flex;
+  flex-direction: row;
+}
+
+.App .App__Form .FormField.Input {
+  display: flex;
+  flex-direction: column;
+}
+
+.App .App__Form .FormField.Input .FormField__Input {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.App .App__Form .FormField .FormField__Button {
+  color: inherit;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  white-space: normal;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 0.84rem 2.14rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  background-image: linear-gradient(
+    -90deg,
+    rgb(234, 72, 150),
+    rgb(254, 114, 75)
+  );
+  color: white;
+}
+
+.App .App__Form .FormField .FormField__Label {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.App .App__Form .FormTitle {
+  text-align: center;
+  font-size: 15px;
+}
+
+.intro {
+  width: 80%;
+}
+
+.intro img {
+  width: 50px;
+}
+.intro h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #5d5d5d;
+}
+.intro h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+  .App .App__Aside {
+    order: 2;
+    width: 100%;
+  }
+  .App .App__Form {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro img {
+    width: 50px;
+  }
+}

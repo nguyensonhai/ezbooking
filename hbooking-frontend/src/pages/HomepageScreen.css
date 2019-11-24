@@ -1,0 +1,20 @@
+.section {
+  margin: 20px auto;
+}
+
+.section .row p.slash {
+  width: 100px;
+  height: 3px;
+  margin: 10px auto;
+  background-color: rgb(240, 70, 119);
+}
+
+.container.slider-card
+  .slick-slider
+  .slick-list
+  .slick-track
+  .card.booking-card {
+  border: 1px solid #5d5d5d26;
+  box-shadow: 6px 7px 9px -7px #00000017;
+  border-radius: 0.625rem;
+}

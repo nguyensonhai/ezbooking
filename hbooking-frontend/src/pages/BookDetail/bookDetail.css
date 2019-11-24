@@ -1,0 +1,11 @@
+.FormField__Button {
+  display: flex;
+  margin: 0 auto;
+}
+.detail-description span {
+  font-weight: bold !important;
+}
+.book-detail h4 {
+  color: rgb(234, 72, 150);
+  font-weight: bold;
+}
