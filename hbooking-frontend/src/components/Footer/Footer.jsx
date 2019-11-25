@@ -63,16 +63,16 @@ const Footer = () => {
               style={{ width: "60px" }}
             />
             <p>
-              <i className='fas fa-home mr-3' /> 22C Thành Công, Hà Nội
+              <i className='fas fa-home mr-3' /> Ho Chi Minh City
             </p>
             <p>
-              <i className='fas fa-envelope mr-3' /> hr@hbooking.com.vn
+              <i className='fas fa-envelope mr-3' /> admin@hbooking.com.vn
             </p>
             <p>
-              <i className='fas fa-phone mr-3' /> + 84 97 371 2395
+              <i className='fas fa-phone mr-3' /> 076 670 1009
             </p>
             <p>
-              <i className='fas fa-print mr-3' /> + 84 97 371 2395
+              <i className='fas fa-print mr-3' /> 033 377 4697
             </p>
           </div>
           {/* Grid column */}
@@ -128,7 +128,7 @@ const Footer = () => {
         style={{ backgroundColor: "#8080801a" }}
         className='footer-copyright text-center text-black-50 py-3'
       >
-        © 2018 Copyright:
+        © 2019 Copyright:
         <a
           style={{ color: "rgb(240, 70, 119)" }}
           className='dark-grey-text'

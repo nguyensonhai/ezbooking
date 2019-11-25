@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { NavLink, Link } from "react-router-dom";
+import swal from "sweetalert";
 import "./register.css";
 class RegisterScreen extends Component {
   state = {
@@ -98,7 +99,13 @@ class RegisterScreen extends Component {
           this.setState({
             isSuccess: true
           });
-          window.location.href = `/login`;
+          swal(
+            "Tạo tài khoản thành công",
+            "Bạn có thể đăng nhập",
+            "success"
+          ).then(value => {
+            window.location.href = `/login`;
+          });
         }
       } catch (err) {
         this.setState({

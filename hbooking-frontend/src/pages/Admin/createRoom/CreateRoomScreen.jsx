@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import SideBar from "../sideBar/SideBar";
 import "./create.css";
 import { Redirect } from "react-router-dom";
+import swal from "sweetalert";
 
 const maxFileSize = 5000000;
 const imageFileRegex = /\.(gif|jpg|jpeg|tiff|png)$/i;
@@ -178,6 +179,13 @@ class CreateRoomScreen extends Component {
             return res.json();
           });
         }
+        swal(
+          "Tạo phòng thành công",
+          "Mời bạn kiểm tra lại",
+          "success"
+        ).then(value => {
+          window.location.href = `/admin/create-room`;
+        });
       } catch (error) {
         this.setState({
           errorMessage: error.message
@@ -393,8 +401,8 @@ class CreateRoomScreen extends Component {
     ) : this.state.currentUser ? (
       <Redirect to='/' />
     ) : (
-      <Redirect to='/login' />
-    );
+          <Redirect to='/login' />
+        );
   }
 }
 

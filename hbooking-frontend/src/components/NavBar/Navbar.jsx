@@ -27,7 +27,7 @@ const Navbar = props => {
                   style={{ color: "#f04677" }}
                   className='fas fa-phone-alt'
                 ></i>{" "}
-                Hotline: 0973712395
+                Hotline: 0766701009
               </a>
             </li>
             <li className='nav-item'>
