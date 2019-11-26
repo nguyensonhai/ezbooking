@@ -1,0 +1,43 @@
+.slick-next::before {
+  content: "";
+}
+.slick-prev::before {
+  content: "";
+}
+
+.slick-slide {
+  padding: 0 5px;
+}
+
+.card-title.font-weight-bold a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #5d5d5d;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.card-title.font-weight-bold a:hover {
+  color: rgb(240, 70, 119);
+}
+.fas.fa-star.amber-text {
+  color: rgb(255, 176, 37);
+}
+
+@media (max-width: 575.98px) {
+  .box-shadow .col-6 img {
+    height: 200px !important;
+  }
+}
+
+.lib-row.lib-desc a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #5d5d5d;
+  transition: 0.2s;
+}
+
+.lib-row.lib-desc a:hover {
+  text-decoration: none;
+  color: rgb(240, 70, 119);
+}

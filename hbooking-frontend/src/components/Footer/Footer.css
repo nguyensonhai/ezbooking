@@ -1,0 +1,22 @@
+* {
+  color: #5d5d5d;
+}
+
+hr {
+  height: 1px;
+  background-color: rgb(240, 70, 119);
+}
+
+p a.dark-grey-text {
+  color: #5d5d5d;
+  transition: 0.2s;
+}
+
+p a.dark-grey-text:hover {
+  color: rgb(240, 70, 119);
+  text-decoration: none;
+}
+
+footer {
+  border-top: 1px solid #f2f2f2;
+}

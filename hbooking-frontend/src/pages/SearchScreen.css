@@ -1,0 +1,10 @@
+.section {
+  margin: 20px auto;
+}
+
+.section .row p.slash {
+  width: 100px;
+  height: 3px;
+  margin: 10px auto;
+  background-color: rgb(240, 70, 119);
+}

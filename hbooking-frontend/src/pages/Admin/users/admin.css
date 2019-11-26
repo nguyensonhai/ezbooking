@@ -1,0 +1,19 @@
+.row.admin {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.sidebar-container .navbar-nav {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-container {
+  margin-bottom: 30px;
+}
