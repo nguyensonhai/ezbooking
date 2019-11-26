@@ -12,7 +12,7 @@ const customerRouter = require("./customers/customers.routes");
 const bookingRouter = require("./booking/booking.routes");
 
 mongoose.connect(
-  "mongodb+srv://admin:04030211@admin@hbooking-nxjjx.mongodb.net/test?retryWrites=true&w=majority",
+  "mongodb://localhost:27017/hbooking",
   { useNewUrlParser: true, useUnifiedTopology: true },
   e => {
     if (e) {
@@ -25,7 +25,7 @@ mongoose.connect(
       app.use(express.static("public"));
       app.use(
         cors({
-          origin: ["ezhbooking.herokuapp.com"],
+          origin: ["http://localhost:3000"],
           credentials: true
         })
       );
