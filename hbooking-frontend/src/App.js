@@ -32,7 +32,7 @@ class App extends Component {
   }
 
   handleLogout = async () => {
-    const data = await fetch("http://localhost:3001/users/logout", {
+    const data = await fetch("https://ezhbooking.herokuapp.com//users/logout", {
       method: "GET",
       credentials: "include"
     }).then(res => {
