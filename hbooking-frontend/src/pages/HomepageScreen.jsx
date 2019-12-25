@@ -6,8 +6,8 @@ const HomepageScreen = props => {
   const [topPriceData, setTopPriceData] = useState("");
   const [latestData, setLatestData] = useState("");
   const [cityData, setCityData] = useState([
-    "Hà Nội",
-    "Hồ Chí Minh",
+    "Nha Trang",
+    "Hồ Chí Minh",
     "Đà Lạt",
     "Đà Nẵng"
   ]);
